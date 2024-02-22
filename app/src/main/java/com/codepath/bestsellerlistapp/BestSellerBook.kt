@@ -1,5 +1,6 @@
 package com.codepath.bestsellerlistapp
 
+import com.google.gson.Gson
 import com.google.gson.annotations.SerializedName
 
 /**
@@ -19,6 +20,15 @@ class BestSellerBook {
     @JvmField
     @SerializedName("author")
     var author: String? = null
+
+    @SerializedName("book_image")
+    var bookImageUrl: String? = null
+
+    @SerializedName("description")
+    var description: String? = null
+
+
+
 
     //TODO bookImageUrl
 
